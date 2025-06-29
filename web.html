@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Parawisata.ID - Liburan & Trip</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="font-sans antialiased scroll-smooth">
+
+  <!-- Navbar -->
+  <nav class="bg-white shadow sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-6 flex justify-between items-center py-4">
+      <div class="text-xl font-bold text-yellow-600">Parawisata.ID</div>
+      <ul class="hidden md:flex space-x-8 font-medium">
+        <li><a href="#beranda" class="hover:text-yellow-500">Beranda</a></li>
+        <li><a href="#tentang" class="hover:text-yellow-500">Tentang Kami</a></li>
+        <li><a href="#layanan" class="hover:text-yellow-500">Layanan</a></li>
+        <li><a href="#lokaltrip" class="hover:text-yellow-500">Lokal Trip</a></li>
+        <li><a href="#berita" class="hover:text-yellow-500">Berita</a></li>
+        <li><a href="#kontak" class="hover:text-yellow-500">Kontak</a></li>
+      </ul>
+      <a href="#kontak" class="btn-custom hidden md:inline-block">Pesan Sekarang</a>
+    </div>
+  </nav>
+
+  <!-- Beranda -->
+  <section id="beranda" class="bg-cover bg-center h-screen text-white flex items-center justify-center" style="background-image: url('pura.jpg');">
+    <div class="bg-black bg-opacity-50 p-8 rounded text-center">
+      <h1 class="text-4xl font-bold mb-4">Liburan ke Bali</h1>
+      <p class="mb-6">Kunjungi banyak destinasi wisata di Bali, hubungi kami segera.</p>
+      <a href="#kontak" class="btn-custom">Pesan Sekarang</a>
+    </div>
+  </section>
+
+  <!-- Tentang Kami -->
+    <section id="tentang" class="bg-cover bg-center py-16 flex items-center justify-center relative" style="background-image: url('1.jpg');">
+  <!-- Overlay -->
+  <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+
+  <div class="container mx-auto flex flex-col md:flex-row items-center justify-center px-4 relative z-10">
+    
+    <!-- Teks -->
+    <div class="bg-white bg-opacity-80 backdrop-blur-sm p-6 rounded shadow-md md:w-1/2 mb-6 md:mb-0 text-center md:text-left md:mr-8">
+      <h2 class="text-3xl font-bold mb-4 text-yellow-600">Tentang Kami</h2>
+      <p class="mb-4">PT. Para Wisata Indonesia bergerak di biro perjalanan wisata, event organizer, dan portal media wisata sejak 2016. Kami berkomitmen memberikan pelayanan terbaik dengan tim profesional dan jaringan luas.</p>
+      <h3 class="text-lg font-semibold text-gray-800">Visi</h3>
+      <p class="mb-2">Menjadi perusahaan dengan pelayanan terbaik dalam jasa pariwisata.</p>
+      <h3 class="text-lg font-semibold text-gray-800">Misi</h3>
+      <ul class="list-disc ml-5 text-left inline-block">
+        <li>Melayani sesuai kebutuhan pelanggan.</li>
+        <li>Membangun citra yang baik dan profesional.</li>
+      </ul>
+    </div>
+    
+    <!-- Gambar -->
+    <img src="1.jpg" alt="Tentang Kami" class="img-tentang rounded shadow-lg transform hover:scale-105 transition duration-500 ease-in-out">
+
+  </div>
+</section>
+
+
+  <!-- Layanan -->
+  <section id="layanan" class="container mx-auto px-4 py-12">
+    <h2 class="text-2xl font-bold text-center section-title">Layanan Parawisata</h2>
+    <p class="text-center mb-12">Paket wisata lengkap untuk keluarga, sahabat, hingga rekan kerja.</p>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+      <div class="bg-white shadow rounded overflow-hidden">
+        <img src="getring.webp" alt="Corporate Gathering" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h3 class="font-bold text-lg mb-2">Corporate Gathering</h3>
+          <p>Gathering ke berbagai destinasi seru.</p>
+        </div>
+      </div>
+      <div class="bg-white shadow rounded overflow-hidden">
+        <img src="Honeymoon.jpg" alt="Honeymoon" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h3 class="font-bold text-lg mb-2">Honeymoon Package</h3>
+          <p>Paket bulan madu romantis di destinasi indah.</p>
+        </div>
+      </div>
+      <div class="bg-white shadow rounded overflow-hidden">
+        <img src="Road Trip.jpg" alt="Road Trip" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h3 class="font-bold text-lg mb-2">Road Trip</h3>
+          <p>Jelajahi berbagai kota dengan road trip seru.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lokal Trip -->
+  <section id="lokaltrip" class="bg-gray-50 py-12">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-2xl font-bold section-title">Destinasi Lokal Trip</h2>
+      <p class="mb-8">Beragam paket wisata lokal di Indonesia.</p>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
+        <div>
+          <img src="bandung.webp" alt="Bandung" class="rounded shadow w-full">
+          <p class="mt-2 font-medium">Bandung</p>
+        </div>
+        <div>
+          <img src="jakarta.webp" alt="Jakarta" class="rounded shadow w-full">
+          <p class="mt-2 font-medium">Jakarta</p>
+        </div>
+        <div>
+          <img src="bali.jpg" alt="Bali" class="rounded shadow w-full">
+          <p class="mt-2 font-medium">Bali</p>
+        </div>
+        <div>
+          <img src="lombok.jpg" alt="Lombok" class="rounded shadow w-full">
+          <p class="mt-2 font-medium">Lombok</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Berita -->
+  <section id="berita" class="bg-gray-100 py-12">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-2xl font-bold section-title mb-4">Berita & Artikel</h2>
+      <p class="mb-8">Update terbaru seputar pariwisata dan aktivitas kami.</p>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+        <div class="bg-white shadow rounded overflow-hidden text-left">
+          <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80" alt="Tips Liburan" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <h3 class="font-bold mb-2">Tips Liburan Aman</h3>
+            <p>Bagaimana merencanakan liburan yang aman dan nyaman bersama keluarga.</p>
+          </div>
+        </div>
+        <div class="bg-white shadow rounded overflow-hidden text-left">
+          <img src="https://images.unsplash.com/photo-1526772662000-3f88f10405ff?auto=format&fit=crop&w=800&q=80" alt="Destinasi Favorit" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <h3 class="font-bold mb-2">Destinasi Favorit 2025</h3>
+            <p>Rekomendasi destinasi favorit untuk liburan tahun ini.</p>
+          </div>
+        </div>
+        <div class="bg-white shadow rounded overflow-hidden text-left">
+          <img src="https://images.unsplash.com/photo-1540206395-68808572332f?auto=format&fit=crop&w=800&q=80" alt="Promo Liburan" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <h3 class="font-bold mb-2">Promo Paket Liburan</h3>
+            <p>Dapatkan info promo paket wisata dengan harga spesial.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Kontak -->
+    <section id="kontak" class="py-12 bg-gray-50">
+    <div class="container mx-auto px-4 text-center">
+        <h2 class="text-2xl font-bold section-title">Kontak Kami</h2>
+        <p class="mb-8">Hubungi kami untuk pemesanan dan informasi lebih lanjut.</p>
+
+        <!-- Info kontak detail -->
+        <div class="mb-6 text-gray-700 space-y-2">
+        <p><strong>Alamat:</strong> Jl. Raya Wisata No. 123, Denpasar, Bali</p>
+        <p><strong>Telepon:</strong> +62 812-3456-7890</p>
+        <p><strong>Email:</strong> info@parawisata.id</p>
+        </div>
+
+        <!-- Ikon sosial media -->
+        <div class="flex justify-center space-x-4 mb-8">
+        <a href="https://wa.me/6281234567890" target="_blank" class="bg-green-500 text-white p-3 rounded-full hover:bg-green-600 transition" aria-label="WhatsApp">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 448 512"><path d="M380.9 97.1C339-1.3 263.5-16 193.4 10.6S56.6 126.3 52.3 212.6c-4.2 85.1 47.6 164.6 125.1 197.4L136 496l82.5-22.1c83.2 23 171.3-10.3 222.7-83.6 51.6-73.3 49.1-179-7.7-250.2zM229.7 392.6c-59.8 0-110.6-47-112.7-106.3-2.1-61.6 45.2-113 106.7-115.2 61.4-2.2 113 45.2 115.2 106.7 2.1 59.3-45.2 113-106.7 114.8h-2.5z"/></svg>
+        </a>
+
+        <a href="https://instagram.com/yourusername" target="_blank" class="bg-pink-500 text-white p-3 rounded-full hover:bg-pink-600 transition" aria-label="Instagram">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 448 512"><path d="M224.1 141c-63.6 0-115.1 51.5-115.1 115.1S160.5 371.2 224.1 371.2 339.2 319.7 339.2 256 287.7 141 224.1 141zm0 190.5c-41.6 0-75.4-33.8-75.4-75.4s33.8-75.4 75.4-75.4 75.4 33.8 75.4 75.4-33.8 75.4-75.4 75.4zm146.4-194.3c0 14.9-12 26.9-26.9 26.9-14.9 0-26.9-12-26.9-26.9s12-26.9 26.9-26.9 26.9 12 26.9 26.9zm76.1 27.2c-1.7-35.7-9.9-67.2-36.4-93.7-26.5-26.5-58-34.7-93.7-36.4C292 0 156 0 108.7 1.8c-35.7 1.7-67.2 9.9-93.7 36.4C-11.5 64.7-19.7 96.2-21.4 131.9 0 179.3 0 315.3 1.8 362.6c1.7 35.7 9.9 67.2 36.4 93.7 26.5 26.5 58 34.7 93.7 36.4 47.3 1.8 183.3 1.8 230.6 0 35.7-1.7 67.2-9.9 93.7-36.4 26.5-26.5 34.7-58 36.4-93.7 1.8-47.3 1.8-183.3 0-230.6zM398.8 388c-7.8 19.5-22.9 34.7-42.4 42.4-29.4 11.7-99.1 9-132.3 9s-102.9 2.6-132.3-9c-19.5-7.8-34.7-22.9-42.4-42.4-11.7-29.4-9-99.1-9-132.3s-2.6-102.9 9-132.3c7.8-19.5 22.9-34.7 42.4-42.4 29.4-11.7 99.1-9 132.3-9s102.9-2.6 132.3 9c19.5 7.8 34.7 22.9 42.4 42.4 11.7 29.4 9 99.1 9 132.3s2.6 102.9-9 132.3z"/></svg>
+        </a>
+
+        <a href="https://facebook.com/yourusername" target="_blank" class="bg-blue-600 text-white p-3 rounded-full hover:bg-blue-700 transition" aria-label="Facebook">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 320 512"><path d="M279.14 288l14.22-92.66h-88.91V134.06c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S265.43 0 225.36 0c-73.62 0-121.36 44.38-121.36 124.72v70.62H22.89V288h81.11v224h100.2V288z"/></svg>
+        </a>
+        </div>
+
+        <a href="https://wa.me/6281234567890" target="_blank" class="bg-yellow-500 text-white px-4 py-2 rounded shadow hover:bg-yellow-600 transition">Hubungi via WhatsApp</a>
+    </div>
+    </section>
+
+
+  <!-- Footer -->
+  <footer class="bg-white text-center py-6 shadow-inner">
+    <p>&copy; 2025 Parawisata.ID. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
